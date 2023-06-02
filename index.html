@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" href="Style.css">
+	<meta charset="utf-8">
+	<title>Mi Web 80mil</title>
+
+</head>
+
+   <body>
+
+            <div class="container-nav">
+               <header>
+                  <nav class="nav-links" role="navigation">
+                         <ul>
+                             <li><a href="Services.html">Servicios</a></li>
+                             <li><a class="enlace" href="Contact.html">Contacto</a></li>
+                             <li>Coding Lofi Mix |<a href="https://www.youtube.com/watch?v=qZjWUkohSQg&ab_channel=Lofiboostyourmood"> Coding Music </a> </li>
+                             <li><a href="About.html">About Me<a/></li>
+                        </ul>
+                  </nav>
+                  <button class="button-menu-toggle">Menu</button>
+               </header>
+
+                  <!-- Parte De Java para el menu-->
+
+       <script type="text/javascript">
+          document.querySelector(".button-menu-toggle").addEventListener("click", function() {
+         document.querySelector(".nav-links").classList.toggle("nav-links-responsive");
+      });
+       </script>
+
+      <main>
+            <div class="container">
+
+               <h1>Bienvenidos a mi primer Website</h1>
+                     <section>
+                  <h2>Presentación</h2>
+                        <p>Soy Jeremias, ¡y esta es mi primera página web!</p>
+                        <p>Estoy aprendiendo desarrollo web para crear sitios web visualmente
+                      atrapantes y funcionales.</p>
+                     </section>
+                     <section>
+                  <h2>Lo que se viene...</h2>
+                        <p>
+                  A lo largo de este curso, estaré aprendiendo HTML, CSS y JavaScript. Estos
+                  lenguajes me ayudarán a crear una base sólida en el desarrollo web frontend.
+                        </p>
+                     </section>
+            </div>
+
+            <video src="Beethoven Virus.mp4" controls > </video>
+
+      </main>
+
+      <footer >
+         <div class="footer1">
+            <p>Este es mi pie de Paguina!</p>
+                       <!-- Cosas Agregadas por mi -->
+           <button onClick="showAlert()" class="miBoton" id="miBoton" aria-label="Dispara una alerta de saludo">¡Haz clic en mí!</button>
+         </div>
+
+           <script src="index.js"></script>
+      </footer>
+   </body>
+</html>

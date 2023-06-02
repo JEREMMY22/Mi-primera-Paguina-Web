@@ -1,0 +1,232 @@
+
+h1 { 
+	text-align: center;
+		color: black; 
+ 		background-color: ;
+		font-family: sans-serif;
+}
+ 
+p {
+ 	color: black ;
+ 	font-size: 12;
+ 	background-color: none;
+ 	margin: 20px;
+ }
+
+.img-mount {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	}
+
+img {
+	margin-left: 100px;
+	padding: 20;
+	height: 30vh;
+}
+
+	/*margin-left: 370px;
+	margin-right: 50px;
+	margin-top: auto;
+	margin-bottom: auto;
+	*/
+
+.box{
+	background-color: lightgray;
+	width: 300px;
+	height: 150px;
+	padding: 20px;
+	border: 5px black;
+	margin: 50px;
+}
+
+body {
+           background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+   }
+
+video{
+   	width: 700px;
+	height:450px ;
+
+	margin-left: 370px;
+	margin-right: 50px;
+	margin-top: auto;
+	margin-bottom: auto;
+   }
+
+.container{
+   	max-width: 800px;
+   	margin: auto;
+   	padding: 20px;
+   }
+
+.myForm{
+   	color: white;
+   	background-color: ;
+   }
+
+.grande{
+	background-color: black;
+	width: 500px;
+	height: 300px;
+	display: flex;
+
+}
+.medio{
+   	margin:30px;
+	padding: 20px;
+	width: 400px;
+	height: 200px;
+	background-color: grey;
+	display: flex;
+   }
+.chico{
+	background-color: brown;
+	margin:30px;
+	padding: 20px;
+	width: 300px;
+	height: 100px;
+	display: flex;
+}
+
+.caja0{
+	 border: solid;
+ 		width: 500px;
+		height: 500px;
+}
+.caja1{
+		border: darkkhaki;
+		background-color: coral;
+		width: 50px;
+		height: 50px;
+		margin:30px;
+
+}
+.caja2{ 
+		border: darkkhaki;
+		background-color: cornflowerblue;
+		width: 50px;
+		height: 50px;
+		margin top:100px;
+		margin-right:230px;
+		margin-left: 230px;
+
+}
+.caja3{
+		border: darkkhaki;
+		background-color: darkseagreen;
+		width: 50px;
+		height: 50px;
+		margin top:auto;
+		margin-right:30px;
+		margin-left: 420px;
+}
+
+/* Estilos para pantallas de hasta 2000 píxeles de ancho */
+@media (max-width: 2000px) {
+  .caja0 {
+    background-color: yellow;
+  }
+}
+/* Estilos para pantallas de hasta 1000 píxeles de ancho */
+@media (max-width: 1000px) {
+  .caja0 {
+    background-color: green;
+  }
+}
+
+
+
+header {
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 20px;
+}
+
+nav ul {
+list-style:none;
+margin: 0;
+padding: 0;
+}
+
+nav li {
+display: inline-block;
+margin-right: 20px;
+margin-left: 20px;
+margin-top: 10px;
+color: white;
+}
+
+nav a {
+color: #fff;
+text-decoration: none;
+padding: 8px 24px;
+}
+nav a:hover {
+color: #1BF7DE;
+}
+
+
+@media(min-width: 769px){
+	header{
+		width: 1200;
+		background-color: black;
+	}
+	.button-menu-toggle{
+		display: none;
+	}
+}
+
+@media (max-width: 768px) {
+.column {
+flex: 100%;
+}
+.nav-links {
+display: none;
+}
+.button-menu-toggle {
+display: block;
+background-color: white;
+border:none;
+border-radius: 50px;
+padding: 0 24px;
+font-family: monospace;
+font-weight: bold;
+font-size: 20px;
+}
+.nav-links.nav-links-responsive {
+position: absolute;
+display: flex;
+background-color: rgba(20,20,20,0.95);
+width: 100%;
+height: 100%;
+top: 70px;
+left: 0;
+flex-direction: column;
+padding-top: 200px;
+align-items: center;
+gap:70px;
+font-size: 40px;
+}
+}
+
+
+.footer1{
+	height: 200px;
+	margin-top: 20px;
+	background-color: #E7FFF3;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+
+}
+.miBoton{
+	margin: 20px;
+	align-items: center;
+	display: flex;
+}
